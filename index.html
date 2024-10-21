@@ -50,11 +50,11 @@
         line-height: 1;
         font-size: 3em;
       }
-      h1::before {
-        content: "🌺";
-        line-height: 1;
+      @media screen and (min-width: 600px) {
+        h1::before {
+          content: "🌺 ";
+        }
       }
-
 
       h2 {
         border-bottom: 1px solid #fff;
@@ -95,7 +95,7 @@
           four generations. We hope it is a place where you can relax and
           rejuvenate and be refreshed.
         </p>
-        <br/>
+        <br />
         <p>
           To ensure you have a comfortable and enjoyable stay, please take a
           moment to review the following information:
